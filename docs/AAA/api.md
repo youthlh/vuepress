@@ -3,8 +3,11 @@
 和侧边栏/导航栏相关的地址配置 其 '/' 默认指向的是 docs/
 侧边栏/导航栏指向.md文件的需要先建立相关.md文件，不然会报404或者页面空白
 ```
+
 <a href='/AAA/apiword/' target="_blank">apiword 链接</a>
-<span v-for="i in 3">{{ i }} </span>
+<span v-for="i in 5">{{ i }} </span>
+[[toc]]
+
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
@@ -32,10 +35,11 @@
 
 <!-- 引入代码左上角波浪号中的 (你所写语法) ```` 是html就 html 是 css ``` 给写css -->
 <!-- 注释需要打开 这样vuepress会把这里面包裹的当成代码块而不是js -->
+
 ```js
 {{}} 啦 {{}} // 注释需要打开 这样vuepress会把这里面包裹的当成代码块而不是js
 ```
 
 ```html
-    <common-date (dateChange)="dataChange($event)" _date></common-date>
+<common-date (dateChange)="dataChange($event)" _date></common-date>
 ```

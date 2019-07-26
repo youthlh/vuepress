@@ -21,6 +21,7 @@ module.exports = {
             { text: '指南', link: '/AAA/apiword' },
             { text: '配置参考', link: '/AAA/api' },
             { text: '默认主题配置', link: '/BBB/' },
+            { text: 'vue', link: '/vue/' },
             { text: '百度', link: 'https://www.baidu.com/' },
             //------------------直接添加壹级导航-----------------------//
             {
@@ -74,7 +75,15 @@ module.exports = {
                     ]
                 },
             ],
-
+            '/vue/': [//显示分组
+                {
+                    title: '组件通信',
+                    collapsable: true,
+                    children: [
+                        ['/vue/组件通信', 'vue组件通信']
+                    ]
+                },
+            ],
         },
         sidebarDepth: 2,//自定义此行为默认深度是 1,它提取 h2 标题。将其设置为 0 将禁用标题链接，最大值为2，同时提取 h2 和 h3 标题。
         // 假定 GitHub。也可以是一个完整的 GitLab 网址
