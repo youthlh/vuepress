@@ -78,7 +78,7 @@ module.exports = {
         },
         sidebarDepth: 2,//自定义此行为默认深度是 1,它提取 h2 标题。将其设置为 0 将禁用标题链接，最大值为2，同时提取 h2 和 h3 标题。
         // 假定 GitHub。也可以是一个完整的 GitLab 网址
-        repo: 'https://github.com/youthlh/html',
+        repo: 'https://github.com/youthlh/vuepress',
         // 如果你的文档不在仓库的根部
         docsDir: 'docs',
         // 可选，默认为 master
