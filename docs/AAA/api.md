@@ -4,6 +4,10 @@
 侧边栏/导航栏指向.md文件的需要先建立相关.md文件，不然会报404或者页面空白
 ```
 
+::: v-pre
+`{{ This will be displayed as-is }}`
+:::
+
 <a href='/AAA/apiword/' target="_blank">apiword 链接</a>
 <span v-for="i in 5">{{ i }} </span>
 [[toc]]
