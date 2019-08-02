@@ -8,7 +8,7 @@
 `{{ This will be displayed as-is }}`
 :::
 
-<a href='/AAA/apiword/' target="_blank">apiword 链接</a>
+<a href='/ServerVariables/apiword/' target="_blank">apiword 链接</a>
 <span v-for="i in 5">{{ i }} </span>
 [[toc]]
 
