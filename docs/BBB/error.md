@@ -1,9 +1,10 @@
 ---
-sidebar: false
+sidebar: true
 ---
 
 <h1>目录结构</h1>
 
+```
 Dev
 ├─── docs
 │   └── .vuepress   // 配置目录
@@ -50,3 +51,4 @@ Dev
 │   │    └── README.md  // 随笔首页
 │   └── README.md   // 博客首页
 └── package.json
+```

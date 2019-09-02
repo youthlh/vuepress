@@ -18,8 +18,8 @@ module.exports = {
     themeConfig: {
         nav: [ // 导航栏配置
             //------------------直接添加壹级导航-----------------------//
-            { text: '指南', link: '/AAA/apiword' },
-            { text: '配置参考', link: '/AAA/api' },
+            { text: '指南', link: '/ServerVariables/apiword' },
+            { text: '配置参考', link: '/ServerVariables/api' },
             { text: '默认主题配置', link: '/BBB/' },
             { text: 'vue', link: '/vue/' },
             { text: 'Lodash', link: '/Lodash/difference' },
@@ -28,8 +28,8 @@ module.exports = {
             {
                 text: '下拉链接导航',
                 items: [
-                    { text: '指南', link: '/AAA/apiword' },
-                    { text: '配置参考', link: '/AAA/api' },
+                    { text: '指南', link: '/ServerVariables/apiword' },
+                    { text: '配置参考', link: '/ServerVariables/api' },
                     { text: '默认主题配置', link: '/BBB/error' },
                     { text: '百度', link: 'https://www.baidu.com/' },
                 ]
@@ -37,11 +37,11 @@ module.exports = {
         ],
         sidebar: { //侧边栏 侧边栏菜单( 一个模块对应一个菜单形式 )sidebar: auto=>自动使用标题侧边栏    !!!!!分组会将直接分组直接覆盖
             /**不分组菜单**/
-            '/AAA/': [ //直接显示无分组    
+            '/ServerVariables/': [ //直接显示无分组    
                 "apiword", //指的是根目录的md文件 也就是 README.md 里面的内容
             ],
             /**多级菜单形式 **/
-            '/AAA/': [ //显示分组 => 多级菜单形式
+            '/ServerVariables/': [ //显示分组 => 多级菜单形式
                 {
                     title: '指南', // 菜单名
                     collapsable: true, //是否可展开
@@ -49,14 +49,21 @@ module.exports = {
                         // ['','']=>[路径,标题]
                         // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                         // 不以 '/' 结尾的就是指向.md文件     
-                        ['/AAA/apiword', 'apiword参数']
+                        ['/ServerVariables/apiword', 'apiword参数']
                     ]
                 },
                 {
                     title: '配置参考',
                     collapsable: false,
                     children: [
-                        ['/AAA/api', 'api参数']
+                        ['/ServerVariables/api', 'api参数']
+                    ]
+                },
+                {
+                    title: '配置参考',
+                    collapsable: false,
+                    children: [
+                        ['/ServerVariables/array', '数组方法']
                     ]
                 },
                 {

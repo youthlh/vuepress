@@ -4,7 +4,7 @@ heroImage: /img/logo.png
 heroText: 李 浩
 tagline: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
 actionText: GOGOGOGOGO →
-actionLink: /AAA/apiword/
+actionLink: /ServerVariables/apiword/
 features:
   - title: 1
     details: AAAAAAAAAAAAAAAAAAAAAAAAA
